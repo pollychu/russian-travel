@@ -1,0 +1,8 @@
+.header__list-language {
+  list-style: none;
+  font-family: 'inter-regular', Arial, sans-serif;
+  display: flex;
+  padding: 0;
+  gap: 18px;
+  margin: 0;
+}

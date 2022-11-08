@@ -1,0 +1,20 @@
+.lead {
+  width: calc(100% - 200px);
+  padding: 56px 0 0;
+  margin: 0 auto;
+}
+
+/* до этой высоты будет применятья след правило */
+@media screen and (max-width: 1279.98px) {
+  .lead {
+    padding: 48px 0 0;
+    width: calc(100% - 48px * 2);
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .lead {
+    padding: 48px 0 0;
+    width: 100%;
+  }
+}

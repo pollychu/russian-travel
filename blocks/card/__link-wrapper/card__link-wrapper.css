@@ -1,0 +1,10 @@
+.card__link-wrapper {
+  grid-area: links;
+  align-self: end;
+}
+
+@media screen and (max-width: 767.98px) {
+  .card__link-wrapper {
+    padding: 0 16px 0;
+  }
+}

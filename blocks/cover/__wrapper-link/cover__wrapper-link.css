@@ -1,0 +1,41 @@
+.cover__wrapper-link {
+  width: 100%;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-image: url(../../../images/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+
+.cover__wrapper-link::before {
+  content: "";
+  width: 100%;
+  min-height: 740px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(42,44,47,0.3);
+  transition: background-color 0.5s ease;
+}
+
+.cover__wrapper-link:hover::before {
+  background-color: rgba(42,44,47,0.8);
+}
+
+@media screen and (max-width: 1279.98px) {
+  .cover__wrapper-link {
+    min-height: calc(0.625 * 100vw);
+  }
+  .cover__wrapper-link::before {
+    min-height: calc(0.625 * 100vw);
+  }
+}
