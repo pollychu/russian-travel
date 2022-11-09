@@ -1,0 +1,27 @@
+.photos__container {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 16px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+}
+
+@media screen and (max-width: 1279.98px) {
+  .photos__container {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .photos__container {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .photos__container {
+    gap: 12px;
+  }
+}

@@ -16,6 +16,8 @@
   z-index: 1;
 }
 
+  /* отдельно задаю высоту для элемента before,
+  который создает затемнение наложения */
 .cover__wrapper-link::before {
   content: "";
   width: 100%;
@@ -35,6 +37,9 @@
   .cover__wrapper-link {
     min-height: calc(0.625 * 100vw);
   }
+
+  /* отдельно задаю высоту для элемента before,
+  который создает затемнение наложения */
   .cover__wrapper-link::before {
     min-height: calc(0.625 * 100vw);
   }

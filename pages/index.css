@@ -15,7 +15,7 @@
 @import url(../blocks/header/__map-logo/header__map-logo.css);
 @import url(../blocks/header/__list-language/header__list-language.css);
 @import url(../blocks/header/__language/header__language.css);
-@import url(../blocks/header/__language/_status/header__language_status_active.css);
+@import url(../blocks/header/__language/_active/header__language__active.css);
 
 /* lead */
 @import url(../blocks/lead/lead.css);
@@ -35,12 +35,14 @@
 
 /* photos */
 @import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__container/photos__container.css);
 @import url(../blocks/photos/__item/photos__item.css);
 
 /* places & card*/
 @import url(../blocks/places/places.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__title/_short/card__title_short.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__link-wrapper/card__link-wrapper.css);
 @import url(../blocks/card/__url-info/card__url-info.css);

@@ -1,32 +1,20 @@
 .card__paragraph {
-  margin: 0;
-  font-family: 'inter-regular';
+  margin: 0 0 26px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
 }
 
-.card__paragraph:first-child {
-  margin: 0 0 26px;
-}
-
-.card__paragraph:last-of-type {
+.card__paragraph:last-child {
   margin: 0;
 }
 
 @media screen and (max-width: 1023.98px) {
     .card__paragraph {
       font-size: 16px;
-    }
-
-    .card__paragraph:first-child {
       margin: 0 0 25px;
     }
-    .card__paragraph:last-of-type {
-      margin: 0;
-    }
-  }
 
   @media screen and (max-width: 767.98px) {
     .card__paragraph {
